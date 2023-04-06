@@ -1,7 +1,7 @@
 const Footer = (props) => {
   return (
     <div>
-      <h1> Footer Component</h1>
+      <h3 className="footer"> @joselinecedano.dev</h3>
     </div>
   );
 };

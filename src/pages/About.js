@@ -21,10 +21,11 @@ const About = (props) => {
 
   //function that'll return the info needed once we get the the data
   const loaded = () => (
-    <div>
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
+    <div className="about">
+      <img className="headshot" src = {about.headshot} alt='joseline cedano'/>
+         <h2>Hello my name is {about.name}.</h2>
+      <h3>Email: {about.email}</h3>
+      <p> {about.bio}</p>
     </div>
   );
   //if data arrives return result of loaded() else return "Loading..."

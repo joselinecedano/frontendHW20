@@ -19,14 +19,14 @@ const Projects = (props) => {
   //function that will map over the array of projects and return the jsx for project
   const loaded = () => {
     return projects.map((project) => (
-      <div>
-        <h1>{project.name}</h1>
+      <div className="project">
+        <h1>{project.name}</h1> 
         <img className='projectImg'src={project.image} /><br/>
         <a href={project.git}>
           <button>Github</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button>Live Site</button>
         </a>
       </div>
     ));

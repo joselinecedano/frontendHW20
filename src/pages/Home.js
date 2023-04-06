@@ -1,7 +1,7 @@
 const Home = (props) => {
     return (
-      <div>
-        <h1> Home Component</h1>
+      <div className="home">
+        <h1> "My freedom: is to be what they don't want me to be."<br/> Mahmoud Darwish</h1>
       </div>
     );
   };

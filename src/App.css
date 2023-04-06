@@ -1,3 +1,43 @@
-.projectImg{
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+body{
+  background-image: url("https://c1.wallpaperflare.com/preview/676/806/395/sky-clouds-light-grey.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Shrikhand', cursive;
+  margin: 15px;
+  color: white;
+}
+.about, .home{
+ margin: 20px;
+ text-align: center;
+}
+.headshot{
+  border-radius: 90px;
+}
+.project{
+  display: inline-block;
   max-width: 300px;
+  max-height: 500px;
+  margin: 15px 35px 15px ;
+  /* border: 2px solid ; */
+}
+h1,h2,h3,h4,p{
+  /* simulates an outline of a letter by adding a shadow to all sides of it*/
+  text-shadow: -1px -1px 0 rgb(27, 31, 35), 1px -1px 0 rgb(27, 31, 35), -1px 1px 0 rgb(27, 31, 35), 1px 1px 0 rgb(27, 31, 35);
+}
+.footer, .title{
+ text-align: center;
+}
+button{
+  font-family: 'Shrikhand', cursive;
+  border-radius: 10px;
+  border: 2px solid gray;
+  font-size: 20px;
+  margin: 10px;
+}
+/* button isn't whats taking the user to the linked page. */
+ a :hover {
+  cursor: pointer;
 }
